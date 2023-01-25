@@ -1,0 +1,28 @@
+{
+    "name": "anything-node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "tsc": "npx tsc",
+        "start": "ts-node"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rossjackson/anything-node.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rossjackson/anything-node/issues"
+    },
+    "homepage": "https://github.com/rossjackson/anything-node#readme",
+    "devDependencies": {
+        "@types/node": "18.11.18",
+        "prettier": "2.8.3",
+        "ts-node": "10.9.1",
+        "typescript": "4.9.4"
+    }
+}
