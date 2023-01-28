@@ -9,14 +9,8 @@
             "request": "launch",
             "name": "ts-node",
             "skipFiles": ["<node_internals>/**"],
-            "program": "${workspaceFolder}/src/sparseArray.ts",
-            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/ts-node"
-        },
-        {
-            "name": "node",
-            "program": "${workspaceFolder}/src/workerThreads/main.js",
-            "request": "launch",
-            "type": "node"
+            "program": "${workspaceFolder}/src/observable.ts",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/ts-node-esm"
         }
     ]
 }
